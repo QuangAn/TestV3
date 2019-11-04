@@ -1,0 +1,136 @@
+._imageMaps_area{position: relative;}
+.image_shape{
+	padding: 0;
+    overflow: hidden;
+	background:#cecece;
+}
+img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+input[type='radio'] + label.label_img {
+    padding:0 2px;
+	overflow: hidden;
+    display: block;
+}
+input[type='radio'].image_input{display:none !important;}
+input[type='radio'].image_map_input{display:none !important;}
+
+
+/* width */
+.scroll_1::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+.scroll_1::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.scroll_1::-webkit-scrollbar-thumb {
+  background: #999; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.scroll_1::-webkit-scrollbar-thumb:hover {
+  background: #888; 
+}
+
+.image_input:checked + label.label_img > img,.image_map_input:checked + label.label_img > img{border:1px solid red;}
+.label_img{padding: 1px;     border: 1px solid #fff;}
+.label_img:hover{border: 2px dotted #333;cursor: pointer;}
+.col-3{width:25%;float:left;}
+.col-4{width:33.3333%;float:left}
+.col-6{width:50%;float:left}
+.wrap-black{
+	position: absolute;
+	background: #000;
+}
+.bg-detail .wrap-black.active{
+	border: 3px dotted red;
+}
+.bg-detail .wrap-black.active.hover{
+	border-color: yellow;
+}
+.drag_img{width: 100px;}
+.label_img .drag_img{padding:3px;}
+.bg-detail .drag_img {width: auto;height::auto;}
+.bg-detail{padding:0 15px;}
+.content-thumb{
+	max-height: 525px;
+    overflow-y: scroll;
+}
+#search_bg{margin:0;}
+.add_shape{
+	max-height: 525px;
+    overflow-y: scroll;
+}
+#search_img_icon{margin:0;}
+.bg-thum.current{border: 2px solid red;}
+.bg-thum:hover{cursor:pointer;border: 2px dotted red;}
+
+
+.remove-img-ds{
+	width:10px;
+	height:10px;
+	position: absolute;top:5px;right:10px;color:red;font-weight: bold;z-index:9;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.checkout-btn h3{text-align:right;font-size:25px;margin-bottom:15px;}
+.checkout-btn h3 a{cursor: pointer;}
+
+.bg-thum {
+    border: 2px solid transparent;
+    width: 50%;
+    float: left;
+  
+}
+.cord_file{width: 100%;}
+#popup-khunghinh .cord_file{
+	position: relative;
+	border: 2px solid transparent;
+	float: left;
+	width: 50%;
+
+}
+#popup-khunghinh .cord_file:hover{cursor:pointer;border: 2px dotted red;}
+#popup-khunghinh{
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    background: #ddd;
+    width: 600px;
+    height: 600px;
+    margin-top: -250px;
+    margin-left: -250px;
+    z-index: 999;
+	display: none;
+	padding: 15px;
+	border-radius: 10px;
+	overflow-y: scroll;
+}
+#close-popup{
+	position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+#opci-body{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #000;
+    opacity: 0.9;
+    z-index: 99;
+	display: none;
+}

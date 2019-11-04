@@ -1,0 +1,644 @@
+/*
+ * Theme Name: Spa V3
+ * Description: Spa Theme Test
+ * Theme URI: http://test.program30.com
+ * Version: 1.0
+ * Theme Author: QuangAn
+ * Author URI: 
+ * Tags: 
+ * Textdomain: quangan
+ */
+
+
+
+ /* Import Font */
+
+@font-face {
+  font-family: "SVN MillerBanner";
+  src: url(fonts/SVN-MillerBanner.ttf);
+}
+/* End Import Font */
+/*------------------------------------------------------------------*/
+/* Desktop Styles*/
+body{margin: 0;}
+a{text-decoration: none;color:#232323;}
+a:hover{color: #000;}
+.container{max-width:1170px;margin: 0 auto;}
+body:not(.home):not(.page-template-landingPage01-php) #main-content{width: 70%;float:left;}
+
+#sidebar{width:27%; float: right;padd-left:3%;}
+#sidebar li{list-style: none;}
+#sidebar .widget{padding-bottom: 15px;}
+.wrap-ladingpage .content{overflow:hidden;}
+.wrap-ladingpage{
+    background: url("./images/background2.jpg")  top center no-repeat;
+    background-size: auto;
+    margin: 0 auto;
+	max-width: 1366px;
+    font-family: "SVN MillerBanner" !important;
+}
+
+.img-fluid{max-width:100%;}
+
+.spa_V3{padding-top: 33px;}
+.top-banner{
+	width:100%;
+	height: 759px;
+}
+.top-banner img{
+width:100%;
+
+}
+.primary-menu ul {
+    list-style: none;
+    padding: 0;
+    width: auto;
+    margin: 65px auto;
+    display: table;
+}
+.primary-menu ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+.primary-menu ul li a{
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 5px;
+	background: rgb(237,199,97);
+    background: linear-gradient(90deg, rgba(237,199,97,1) 10%, rgba(241,211,112,1) 16%, rgba(255,255,171,1) 35%, rgba(255,255,171,1) 57%, rgba(245,219,142,1) 88%);
+}
+.primary-menu ul li a:hover{
+	 background: linear-gradient(90deg,rgba(222,168,108,1) 0, rgba(251,234,214,1) 100%);
+	color: #000;
+}
+section.sec-txt,.entry-content{
+	width: 100%;
+	text-align: center;
+	color: #232323;
+	background: url(./images/border-section.png) bottom center no-repeat;
+	padding: 18px 0 50px 0;
+	max-width: 777px;
+	margin: 0 auto;
+
+}
+.post:last-child .entry-content{background: none;}
+h2.title-V3{
+    font-size: 44px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 57px;
+    font-weight: 500;
+    margin: 0;
+}
+h1.title-V3{
+	font-size: 44px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    line-height: 57px;
+    font-weight: 500;
+    margin: 0;
+}
+.archive-title{
+	text-align: center;
+    border-bottom: 2px solid;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+}
+.archive-title h2{
+	font-size: 44px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    line-height: 57px;
+    font-weight: 500;
+    margin: 0;
+}
+.widget-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+   margin: 15px 0 0 0;
+}
+.widget.widget_categories ul{
+	padding:0;
+}
+section.sec-txt p,.entry-content *{
+font-size: 25px;
+    letter-spacing: 0.9px;
+    line-height: 1.3;
+    margin: 10px 0;
+    word-spacing: -2.5px;
+}
+.entry-content{margin-bottom: 25px;}
+.entry-meta{text-align: center;}
+section.sec-txt p i{
+	letter-spacing: 0.9px;
+	word-spacing: 0px;
+	line-height: 1.2;
+}
+section.sec-txt i{
+	display:block;
+}
+section.sec-txt strong{font-style: italic;}
+section.sec-img{
+	width: 100%;
+	text-align: center;
+	color: #232323;
+	padding: 20px 0 46px 0;
+	max-width: 741px;
+	margin: 0 auto;
+}
+
+section.sec-img .content-section{
+	padding-top:113px;
+}
+
+section.sec-img.section4 .content-section{
+	padding-top:40px;
+}
+section.sec-img.section4 .content-section p{
+	margin-top:-31px;
+}
+
+.group-sec-img .content-section .wrap-img{
+	position: relative;
+}
+.group-sec-img .wrap-img .text-left{
+    position: absolute;
+    top: -38px;
+    left: -15.5%;
+	text-align: right;
+}
+.group-sec-img .wrap-img .text-left p{
+	display: block;
+    font-size: 23px;
+    letter-spacing: 0.5px;
+    word-spacing: -3px;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+.group-sec-img .wrap-img .text-left p:last-child{
+	margin-top: -85px;
+    width: 205px;
+    margin-left: -10px;
+}
+.group-sec-img .wrap-img .text-left i{
+    display: block;
+    width: 131px;
+    margin-left: 61px;
+	font-weight: 700;
+}
+
+
+.group-sec-img .wrap-img .text-right{
+    position: absolute;
+    top: -110px;
+    right: -18%;
+	text-align: left;
+}
+.group-sec-img .wrap-img .text-right p{
+    display: block;
+    font-size: 23px;
+	letter-spacing: 0.5px;
+    word-spacing: -3px;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+.group-sec-img .wrap-img .text-right p:last-child{
+	margin-top: -80px;
+    width: 256px;
+    margin-left: 88px;
+}
+.group-sec-img .wrap-img .text-right i{
+	display: block;
+    width: 210px;
+    margin-left: 88px;
+	font-weight: 700;
+}
+
+
+.sec-review{
+	width: 100%;
+	color: #232323;
+	border: 5px solid #e6bb71;
+	border-top:0;
+	position: relative;
+	margin: 128px auto 81px auto;
+    max-width: 993px;
+}
+.sec-review:after,.sec-review:before{
+	content: "";
+	border: 3px solid #e6bb71;
+	width:8.7%;
+	position: absolute;
+	top:0;
+
+}
+.sec-review:after{
+	left:0;	
+}
+.sec-review:before{
+	right:0;
+}
+.sec-review h2.title-V3{
+	position: absolute;
+    top: -99px;
+    left: 82px;
+	right:82px;
+	z-index: 1;
+    background: transparent;
+}
+.sec-review h2.title-V3 strong{
+	font-size:78px;
+}
+.sec-review .content-section{
+	padding: 114px 90px 45px 90px;
+}
+.sec-review .content-section p{
+	margin: 6px 0 6px 0;
+	overflow: hidden;
+}
+.sec-review .content-section label{
+	min-width: 140px;font-size: 23px;
+	display: inline-block;
+    margin-bottom: 7px;
+	word-spacing: 1.5px;
+	float: left;
+}
+.sec-review .content-section span{
+	height:36px;
+	line-height:36px;
+	padding: 0 19px;
+	display:inline-block;
+	color:#fff;
+	border-radius: 6px;
+	box-shadow: #ddd 0 3px 3px 0;
+	float:left;
+}
+.sec-review .content-section p:nth-child(1) span{
+	max-width: 110px;
+	width: 100%;
+	
+	background: rgb(228,170,60);
+	background: linear-gradient(90deg, rgba(228,170,60,1) 32%, rgba(232,183,76,1) 52%, rgba(231,190,96,1) 72%, rgba(229,198,121,1) 90%);
+}
+.sec-review .content-section p:nth-child(2) span{
+	max-width: 389px;
+	width: 100%;
+	text-align : right;
+	margin-left: 150px;
+	background: rgb(237,199,97);
+	background: linear-gradient(90deg, rgba(237,199,97,1) 10%, rgba(241,211,112,1) 21%, rgba(255,255,171,1) 39%, rgba(255,255,171,1) 57%, rgba(245,219,142,1) 88%);
+}
+.sec-review .content-section p:nth-child(3) span{
+	max-width: 485px;
+	width: 100%;
+	text-align : right;
+	margin-left: 150px;
+	background: rgb(237,199,97);
+	background: linear-gradient(90deg, rgba(237,199,97,1) 10%, rgba(241,211,112,1) 16%, rgba(255,255,171,1) 35%, rgba(255,255,171,1) 57%, rgba(245,219,142,1) 88%);
+}
+.sec-review .content-section p:nth-child(4) span{
+	max-width: 215px;
+	width: 100%;
+	text-align : right;
+	margin-left: 150px;
+	background: rgb(237,199,97);
+	background: linear-gradient(90deg, rgba(237,199,97,1) 10%, rgba(241,211,112,1) 38%, rgba(255,255,171,1) 55%, rgba(255,255,171,1) 57%, rgba(245,219,142,1) 92%);
+}
+.sec-review .content-section p:nth-child(5) span{
+	max-width: 412px;
+	width: 100%;
+	text-align : right;
+	margin-left: 150px;
+	background: rgb(237,199,97);
+	background: linear-gradient(90deg, rgba(237,199,97,1) 10%, rgba(241,211,112,1) 21%, rgba(255,255,171,1) 39%, rgba(255,255,171,1) 57%, rgba(245,219,142,1) 88%);
+}
+
+
+.sec-tab{
+	width: 808px;
+    margin: 0 auto;
+}
+.sec-tab .content-section{
+	margin-top: 32px;
+}
+.tab-wrapper .tab{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 23px;
+    list-style: none;
+	list-style: none;
+}
+.tab-wrapper .tab >li >a{
+	background: rgb(251,234,214);
+    height: 42px;
+    display: inline-block;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #232323;
+    text-align: center;
+    width: 393px;
+    text-decoration: none;
+    font-size: 23px;
+    letter-spacing: 2px;
+    border-top: 3px solid transparent;
+	border-bottom: 3px solid transparent;
+}
+.tab-wrapper .tab >li >a:hover{color: #fff;}
+.tab-wrapper .tab >li.active >a{
+	border: 3px solid #f1d080;
+	color: #fff;
+}
+.tab-wrapper .tab >li:nth-child(1) >a{
+	background: linear-gradient(90deg,rgba(222,168,108,1) 0, rgba(251,234,214,1) 100%);
+    margin-right:10px;
+}
+.tab-wrapper .tab >li:nth-child(2) >a{
+	background: linear-gradient(90deg, rgba(251,234,214,1) 0%, rgba(222,168,108,1) 100%);
+}
+#authent .img-au{padding-right:0;}
+
+.sec-tab .tab-content .tab-item{
+	overflow: hidden;
+}
+.tab-wrapper .de-tab{
+	width: 50%;
+	float:left;
+}
+.tab-wrapper .de-tab .info-c{
+	padding:0 35px;
+	font-size: 25px;
+}
+.tab-wrapper .de-tab .info-c p{
+	    letter-spacing: -1px;
+    word-spacing: 3.2px;
+	line-height: 28px;
+	margin-top: 35px;
+}
+.tab-wrapper .de-tab .info-c p:first-child{
+	margin-top: -2px;
+}
+.tab-wrapper .de-tab .info-c i{font-weight: 700;}
+.tab-wrapper .img-au{
+	width: 50%;
+	float:left;	
+}
+.tab-wrapper .de-tab >p{
+	margin-top:-5px;
+	font-size: 23px;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{clear: both;}
+.section7 {
+    
+    margin-top: -69px;
+    background-size: cover;
+}
+body:not(.page-template-landingPage01) .section7{
+	background: url("./images/bg-contact.png") bottom center no-repeat;
+}
+.sec-form{
+		padding: 100px 0 0 0;
+	    height: 460px;
+		width:680px;
+		margin: 0 auto;
+}
+.sec-form .content-section{margin-top:36px;}
+.sec-form h2.title-v{
+	letter-spacing: 2.8px;
+}
+.sec-form input{
+    border: 3px solid #fff;
+    color: #fff;
+    padding: 0 10px;
+    margin: 5px 0;
+    background: transparent;
+    margin-top: -2px;
+    width: 460px;
+	font-family: "SVN MillerBanner";
+	font-size : 25px;
+	}
+.sec-form .form-group{
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+	padding: 2px 0 4px 0;
+}
+
+.sec-form .col-form-label{
+	font-size: 27px;
+	padding-bottom: 0;
+	min-width: 178px;
+}
+
+.sec-form .btn{
+background: #e2a94b;
+    width: 168px;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+    color: #232323;
+    margin-top: 17px;
+    margin-left: 180px;
+    font-size: 26px;
+    font-family: "SVN MillerBanner";
+    border: none;
+}
+span.wpcf7-not-valid-tip{
+	position: absolute;
+	top: -30px;
+}
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing{display: none !important;}
+.sec-form .btn:hover{color: #fff;cursor: pointer;}
+.single .entry-content,.single .entry-meta{text-align: left;margin:0;}
+/* End Desktop Styles*/
+/*------------------------------------------------------------------*/
+/* Responsive Styles */
+
+/*@media (min-width: 1366px) { 
+	.wrap-ladingpage{
+		background-size: cover;
+		max-width:100%;
+	}
+	.top-banner {
+		height: 840px;
+		
+	}
+	.section7{
+
+	}
+}
+@media (min-width: 1650px){
+.top-banner {
+    height: 1020px;
+}
+}*/
+
+
+@media (max-width: 1366px) {
+	.wrap-ladingpage{
+		background-size: cover;
+	}
+}
+@media (max-width: 1040px) {
+	.group-sec-img .wrap-img .text-right {
+		right: -5%;
+	}
+	.group-sec-img .wrap-img .text-left {
+		left: -5%;
+	}
+	.sec-review{
+		    max-width: 767px;
+	}
+	.sec-review .content-section label{
+		width:100%;
+	}
+	.sec-review .content-section span{
+		margin-left: 0 !important;
+	}
+	
+	.sec-tab{
+		max-width: 767px;
+
+	}
+	.tab-wrapper .tab >li >a{
+		width: 375px;
+	}
+}
+@media (max-width: 835px) {
+	.top-banner {
+		height: 640px;
+	}
+	
+	
+	.group-sec-img{overflow:hidden;}
+	.group-sec-img .wrap-img .line-img img{
+		width: 50%;
+	}
+	.group-sec-img .wrap-img  p{
+		font-size: 18px !important;
+	}
+	.group-sec-img .wrap-img .text-right p:last-child {
+		margin-top: -43px;
+		width: 215px;
+		margin-left: 42px;
+	}
+	.group-sec-img .wrap-img .text-right i {
+
+		margin-left: 45px;
+
+	}
+	.group-sec-img .wrap-img .text-left p:last-child {
+		margin-top: -45px;
+		width: 205px;
+		margin-left: 50px;
+	}
+	.group-sec-img .wrap-img .text-left i {
+		margin-left: 125px;
+	}
+	.sec-tab{width:100%;}
+	
+	section.sec-img img{width:50%;}
+	.group-sec-img .wrap-img .text-left {
+		left: -35px;
+		top: -120px;
+	}
+	.group-sec-img .wrap-img .text-right {
+		right: -70px;
+		top: -130px;
+	}
+	.spa_V3{padding-top:0;}
+	h2.title-V3{font-size:28px;line-height: 30px;}
+	section.sec-txt p,.tab-wrapper .de-tab .info-c,.sec-review .content-section label,.sec-form .col-form-label{font-size:18px;}
+	.sec-review .content-section{padding-top:50px;}
+	.wrap-ladingpage .container{padding:0 10px;}
+	.section7{padding: 20px;}
+	.sec-review {
+		max-width: 710px;
+	}
+	.tab-wrapper .tab li{width: 48%;}
+	.tab-wrapper .tab li:first-child{padding-right:4%;}
+	.tab-wrapper .tab >li >a{
+		width: 100%;
+		margin: 0;
+	}
+.page-template-landingPage01 h2.title-V3{padding-top: 50px;}
+	body:not('.page-template-landingPage01') .sec-form{height:auto;}
+}
+@media (max-width: 767px) { 
+		
+		.page-template-landingPage01 .sec-form{height:555px;}
+		.sec-review .content-section{padding:15px;}
+		.sec-review {
+			max-width: 490px;
+		}
+		.sec-review .content-section p span{text-align: left !important;}
+
+		h2.title-V3{font-size:24px;}
+		.sec-form{padding-top:0;width: 100%;}
+		.sec-form .col-form-label{padding:5px 0;display:block;width:100%;}
+		.sec-form input{margin:0;}
+		.sec-form .content-section{margin-top: 10px;}
+		.img-au .img{width:100%;}
+		.sec-form .input-form{width:100%;display:block;padding:0;margin:0;}
+		.sec-form .input-form input{padding:0;margin:0;}
+		.page-template-landingPage01 h2.title-V3 {
+			padding-top: 115px;
+		}
+}
+@media (max-width: 576px) { 
+	.group-sec-img .wrap-img .text-right,.group-sec-img .wrap-img .text-left{position: initial;padding-bottom: 20px;}
+	.line-img{display:none;}
+	.group-sec-img .wrap-img p,.group-sec-img .wrap-img p i{margin:0 !important;text-align: center;width: 100% !important;}
+	section.sec-img .content-section{padding-top: 10px;}
+	.sec-tab .tab-content .tab-item img,.sec-tab .tab-content .tab-item >div{width:100%;}
+	.tab-wrapper .de-tab{width:100%;}
+	
+	.sec-form .btn{margin:10px 0 0 0;}
+	.tab-wrapper .tab >li >a{font-size:18px;}
+	.sec-review h2.title-V3{font-size:18px;}
+	.sec-review h2.title-V3 strong{font-size:30px;}
+	.sec-review .content-section{padding:20px 10px;}
+	.tab-wrapper .de-tab .info-c {
+		padding: 10px 0;
+	}
+
+	.spa_V3 {
+		padding-top: 40px;
+	}
+}
+@media (max-width: 520px) { 
+	.sec-form input{
+		width:98%;
+	}
+		
+	.sec-review {
+		max-width: 340px;
+	}
+}
+/* End Responsive Styles*/
+/*------------------------------------------------------------------*/
